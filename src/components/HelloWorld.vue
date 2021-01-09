@@ -1,10 +1,5 @@
 <template>
-  <div v-if="loading">
-    Loading
-  </div>
-  <div v-for="user in users" :key="user.id">
-    <div>{{user.name}}</div>
-  </div>
+ 
 </template>
 
 <script>
